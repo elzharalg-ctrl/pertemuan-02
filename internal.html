@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Selector Element, Class, dan ID</title>
+  <style>
+    /* ===== Selector Element ===== */
+    p {
+      color: red;
+      text-align: center;
+    }
+
+    /* ===== Selector Class ===== */
+    .center {
+      text-align: center;
+      color: blue;
+      font-weight: right;
+    }
+
+    /* ===== Selector ID ===== */
+    #special {
+      color: green;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <h2>Selector Element :</h2>
+  <p>Every paragraph will be affected by the style.</p>
+  <p>Me too!</p>
+  <p>And me!</p>
+
+  <hr>
+
+  <h2>Selector Class :</h2>
+  <h3 class="center">Red and center-aligned heading</h3>
+  <p class="center">Red and center-aligned paragraph.</p>
+  <h3>This heading will not be affected</h3>
+  <p>This paragraph will not be affected either.</p>
+
+  <hr>
+
+  <h2>Selector ID :</h2>
+  <p>This paragraph is not affected by the style.</p>
+  <p id="special">Hello World!</p>
+</body>
+</html>
